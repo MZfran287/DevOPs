@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(40, 40, 40); 
+}
+
+.container{
+    color: white;
+    display : grid;
+    grid-template-columns: 33% 67%;
+    margin: 10%;
+    background-color: rgb(28, 28, 28);
+    box-shadow: 7px 7px 17px rgba(0, 0, 0, 0.5);
+}
+
+.kanan{
+    color : black;
+    background-color: white;
+    padding-left : 20px;
+    padding-top: 43px;
+    font-size: 25px;
+    line-height: 53px;
+    letter-spacing: 2px;
+    border-radius: 0px 75px 0px 0px;
+    margin: 12px 12px 12px 0px;
+    display : grid;
+    grid-template-columns: 39% 3% 65%;
+
+}
+
+.kiri{
+    border: 3px  solid white;
+    text-align: center;
+    padding: 10px;
+    margin: 12px 0px 12px 12px;
+    background-color: rgb(19, 19, 19);
+    border-radius: 0px 0px 0px 75px;
+
+    img{
+        width: 200px;
+        border-radius: 150px;
+        border: 3px solid white;
+    }
+}
+
