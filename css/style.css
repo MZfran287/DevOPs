@@ -11,6 +11,7 @@ body{
     background-color: rgb(40, 40, 40); 
 }
 
+/* DANIL */
 .container1{
     color: white;
     display : grid;
@@ -50,15 +51,7 @@ body{
     }
 }
 
-/* body
-{
-   background-color: lightblue;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   min-height: 100vh; 
-} */
-
+/* ZAFRAN */
 .container
 {
     position: relative;
@@ -134,3 +127,43 @@ body{
     padding: 40px;
 }
 
+/* SHERLY */
+.container3 {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 175px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.biodata p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.biodata p strong {
+    color: #555;
+}
